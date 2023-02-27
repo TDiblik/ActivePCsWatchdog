@@ -79,6 +79,7 @@ Aktivní PC v 16.02.2023 21:02:
 ```
 
 `Aktivní PC po celou dobu` are PCs that were active for the whole duration of scanning.
+
 `Aktivní PC v {DATE}` are those which were active in some point of scanning.
 
 With this in mind, let's decypher our example report. The first thing we can notice is that `tom-pc` was enable for the whole duration of the scan.
