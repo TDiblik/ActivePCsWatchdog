@@ -85,8 +85,10 @@ With this in mind, let's decypher our example report. The first thing we can not
 The second we can see is that `example-1` was enabled at `19:02` and `20:02`, but it was turned off after that. Lastly, `example-2` was enabled at
 `19:02`, `20:02` and `21:02`, after that it was turned off.
 
-# Dev notes
+# Notes
 
 - The proper implementation would have been to have a windows service (or Linux daemon) that does the actual scanning, and UI separated but it
   was easier/faster to implement UI and scanning logic into the same codebase and since the program needed to be developed ASAP, I decided to not
   separate UI and scaning service.
+- This program has been developted privatelly for private usage in VPSR, however it has been decided to release the source code. This version of the source code will not be held in sync with the current private version. If you find any issues, feel free to contact me by email and it's more than possible that I'll send you code, or provide help, to fix your issue, however don't expact any kind of active support. If I'm unable to solve your issue, or you want to add some functionality, feel free to fork this repo (it's only like 500 LOC)! 
+- I originally wrote this in 2 days and then spent like 2 hours fixing it after some production bugs popped-up. It's been running without issues for like 2 weeks, so I feel confident releasing this as a v1.
